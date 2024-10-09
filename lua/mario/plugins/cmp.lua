@@ -89,9 +89,9 @@ return {
         lspconfig["phpactor"].setup {}
 
         -- https://github.com/hashicorp/terraform-ls 
-		  lspconfig["terraformls"].setup {}	
-		  lspconfig["tflint"].setup {
-			
-		  }	
+        -- brew install hashicorp/tap/terraform-ls
+        lspconfig["terraformls"].setup {}	
+        -- brew install tflint
+        lspconfig["tflint"].setup {}	
     end
 }

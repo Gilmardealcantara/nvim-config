@@ -1,5 +1,14 @@
 # Neovim configuration for Go development using lazy.nvim and go.nvim
 
+## Setup
+Iterm: https://iterm2.com/
+Fonts: https://webinstall.dev/nerdfont/
+
+```
+git clone  git@github.com:Gilmardealcantara/nvim-config.git ~/.config/nvim
+```
+
+## Tutorials
 * [YouTube Video](https://youtu.be/n5_WLgxwkU8)
 * [Blog post](https://mariocarrion.com/2024/05/20/neovim-migrating-to-lazy-and-go-nvim.html)
 
@@ -63,4 +72,11 @@ gem install solargraph
 
 ```
 brew install php
+```
+
+* [Terraform](https://github.com/hashicorp/terraform-ls )
+
+```
+brew install hashicorp/tap/terraform-ls
+brew install tflint
 ```
